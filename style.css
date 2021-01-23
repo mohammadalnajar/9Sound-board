@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: 'Roboto' , sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-color:purple;
+
+}
+.btn{
+    background-color:rgb(245, 91, 245);
+    color:#fff;
+    margin: 20px;
+    border: 0;
+    border-radius: 5px;
+    padding: 20px 30px;
+    font-size:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition:all .2s ease;
+}
+.btn:focus{
+    outline:none;
+}
+.btn:hover{
+    opacity:0.9;
+}
