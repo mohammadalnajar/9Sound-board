@@ -9,7 +9,7 @@ body{
     height: 100vh;
     overflow: hidden;
     margin: 0;
-    background-color:purple;
+    background-color:rgb(255, 0, 255);
 
 }
 .btn{
